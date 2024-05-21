@@ -1,0 +1,81 @@
+body {
+  font-family: "Sedan SC", sans-serif;
+  background-color: #f2f2f2;
+  padding: 20px;
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+
+.container {
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+  margin: 20px;
+  max-width: 300px;
+}
+
+h2 {
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+p {
+  color: #666;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+form {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+a {
+  color: #613efd;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* CSS untuk Tombol Logout */
+.logout-button {
+  padding: 10px 20px;
+  background-color: blueviolet;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.logout-button:hover {
+  background-color: transparent;
+  color: #000000; /* Warna teks ketika tombol dihover */
+}
+
+/* CSS untuk Tombol Delete Account */
+.delete-button {
+  padding: 10px 20px;
+  background-color: #f44336;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.delete-button:hover {
+  background-color: transparent;
+  color: #000000;
+}

@@ -1,0 +1,29 @@
+# Login_Register_Project
+
+Ini adalah proyek sederhana untuk sistem login dan registrasi menggunakan PHP dan MySQL. Proyek ini mencakup halaman login, halaman registrasi, halaman dashboard setelah login, serta fitur logout dan penghapusan akun.
+
+## Fitur
+
+- Halaman login dengan validasi username/email dan password.
+- Halaman registrasi untuk membuat akun baru dengan validasi formulir.
+- Halaman dashboard yang menampilkan informasi pengguna setelah login.
+- Fitur logout untuk keluar dari sesi pengguna.
+- Fitur penghapusan akun untuk menghapus akun pengguna.
+
+## Struktur Direktori
+
+- `asset/`: Folder yang berisi file CSS dan JavaScript.
+  - `css/`: Folder untuk file CSS.
+  - `js/`: Folder untuk file JavaScript.
+- `db/`: Folder yang berisi file SQL untuk skema database.
+
+## Cara Penggunaan
+
+1. Import skema database `register_login.sql` ke dalam database MySQL Anda.
+2. Atur koneksi database Anda dalam file PHP yang sesuai (`login.php`, `register.php`, dll.).
+3. Pastikan server web Anda dikonfigurasi untuk menjalankan file PHP dan memiliki akses ke struktur direktori proyek.
+4. Buka halaman `index.html` untuk mulai menggunakan sistem login dan registrasi.
+
+## Kontribusi
+
+Anda dipersilakan untuk melakukan kontribusi pada proyek ini. Silakan buat _pull request_ untuk perubahan atau tambahan fitur yang diinginkan.
